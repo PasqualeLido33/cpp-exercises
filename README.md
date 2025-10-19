@@ -32,16 +32,18 @@ For example, to compile a file in the `mathematical\_functions` folder:
 
 g++ mathematical_functions/EXAMPLE.cpp -o EXAMPLE.exe 
 
-
+```markdown
 ## ▶️ After compiling
 
 Run the executable:
 
-```bash
 On Windows
+```bash
 EXAMPLE.exe
 
+```markdown
 On Linux/macOS
+```bash
 ./EXAMPLE
 
 
