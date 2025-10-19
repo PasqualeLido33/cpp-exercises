@@ -14,7 +14,7 @@ Feel free to translate them if needed.
 
 \## Structure
 
-\- `mathematical\_functions/`: mathematical function exercises
+\- `mathematical_functions/`: mathematical function exercises
 
 \- `array/`: array exercises
 
@@ -25,30 +25,21 @@ Feel free to translate them if needed.
 \- `projects/`: small complete projects
 
 
-
-Each folder contains:
-
-\- `code/`: C++ source files (.cpp)
-
-\- `exe/`: compiled executables (.exe)
-
-
-
 \## How to compile
 
 For example, to compile a file in the `mathematical\_functions` folder:
 
+```bash
 
+g++ mathematical_functions/EXAMPLE.cpp -o mathematical_functions/EXAMPLE.exe 
+
+
+
+\## After compiling, run the exe as follows:
 
 ```bash
 
-g++ mathematical\_functions/code/EXAMPLE.cpp -o mathematical\_functions/exe/EXAMPLE.exe 
-
-
-
-After compiling, run the exe as follows:
-
-mathematical\_functions/exe/EXAMPLE.exe
+mathematical_functions/EXAMPLE.exe
 
 
 
