@@ -3,43 +3,45 @@
 Collection of C++ exercises and projects for learning and practice.
 
 
-
-\## ⚠️ Note
+## ⚠️ Note
 
 Some of the code and comments may be written in Italian. 
 
-Feel free to translate them if needed.
+Feel free to translate them if needed. ✅
 
 
 
-\## Structure
+## 📁 Structure
 
-\- `mathematical_functions/`: mathematical function exercises
+- `mathematical_functions/`: mathematical function exercises
 
-\- `array/`: array exercises
+- `array/`: array exercises
 
-\- `string/`: string manipulation exercises
+- `string/`: string manipulation exercises
 
-\- `fstream/`: file input/output exercises
+- `fstream/`: file input/output exercises
 
-\- `projects/`: small complete projects
+- `projects/`: small complete projects
 
 
-\## How to compile
+## 🛠 How to compile
 
 For example, to compile a file in the `mathematical\_functions` folder:
 
 ```bash
 
-g++ mathematical_functions/EXAMPLE.cpp -o mathematical_functions/EXAMPLE.exe 
+g++ mathematical_functions/EXAMPLE.cpp -o EXAMPLE.exe 
 
 
+## ▶️ After compiling
 
-\## After compiling, run the exe as follows:
+Run the executable:
 
 ```bash
+On Windows
+EXAMPLE.exe
 
-mathematical_functions/EXAMPLE.exe
-
+On Linux/macOS
+./EXAMPLE
 
 
